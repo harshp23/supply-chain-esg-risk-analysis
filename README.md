@@ -86,7 +86,7 @@ The goal is to:
   ROC-AUC to measure discriminatory power.
 
 ## 6️⃣ Visualizations (Power BI Dashboard)
-![PowerBI](Supply_Risk_Analysis.png)
+![PowerBI](Suppliers_Risk_Analysis.png)
 
 ## 📊 Key Insights
 
