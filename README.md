@@ -35,13 +35,14 @@ The goal is to:
 - Created a final master dataset with 60+ features per supplier.
 
 3️⃣ Exploratory Data Analysis (EDA)
-
-##Sector Analysis:
+## Sector Analysis:
 
 - Energy sector had the highest lead times and highest ESG risk scores.
 
 - Manufacturing sector showed moderate risk but better delivery reliability.
   ![ Sector wise Lead Times](Sector_wise_Lead_time.png)
+  ![ Sector wise Lead Times](Sector_wise_ESG_Risk.png)
+  
 
 ## Correlation Insights:
 
@@ -54,5 +55,35 @@ The goal is to:
 - Majority of suppliers were low-to-medium risk.
 
 - High-risk suppliers concentrated in specific sectors and regions.
-  
 
+  4️⃣ Feature Engineering
+
+- Created Avg_Risk_Prob (predicted probability of risk).
+
+- Encoded categorical variables (sector, supplier flag).
+
+- Normalized ESG & geopolitical scores.
+
+- Aggregated supplier-level features:
+
+  Average risk probability.
+
+  Maximum observed risk probability.
+
+  Revenue contribution & transactions count.
+
+5️⃣ Machine Learning Model
+
+- Target: Supplier_Risk_Flag (0 = Low/Medium Risk, 1 = High Risk).
+
+- Models Tested:  Random Forest
+
+- Performance Metrics:
+
+   Precision, Recall, F1-score for imbalanced target.
+
+  ROC-AUC to measure discriminatory power.
+
+6️⃣ Visualizations (Power BI Dashboard)
+![PowerBI](
+ 
