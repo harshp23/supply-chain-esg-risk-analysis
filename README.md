@@ -1,4 +1,4 @@
-📊# Supply Chain ESG Risk Analysis
+# 📊Supply Chain ESG Risk Analysis
 
 ## Project Objective
 Analyze supplier risk using ESG scores, geopolitical risk, and supply chain data to identify high-risk suppliers and sectors.
