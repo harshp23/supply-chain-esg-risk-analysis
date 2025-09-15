@@ -12,19 +12,20 @@ The goal is to:
 - Create a Power BI dashboard for interactive insights.
 
 🛠️ Project Workflow
-1️⃣ Data Preparation
+
+## 1️⃣ Data Preparation
 ## Supply Chain Data (Synthetic):
 - Supplier transactions (lead time, revenue, availability, stock levels).
 - Manufacturing & logistics details (production volumes, transport modes, shipping costs).
 - Quality control (inspection results, defect rates, delivery reliability).
-##ESG Data (Downloaded):
+## ESG Data (Downloaded):
 - Environmental, Social, Governance risk scores.
 - Sub-scores: Environment, Social, Governance.
 - Controversy level & ESG risk percentile.
-##Geopolitical Data:
+## Geopolitical Data:
 - Global Political Risk Index per supplier region.
 
-2️⃣ Data Cleaning
+## 2️⃣ Data Cleaning
 
 - Removed missing & duplicate values.
 
@@ -34,7 +35,7 @@ The goal is to:
 
 - Created a final master dataset with 60+ features per supplier.
 
-3️⃣ Exploratory Data Analysis (EDA)
+## 3️⃣ Exploratory Data Analysis (EDA)
 ## Sector Analysis:
 
 - Energy sector had the highest lead times and highest ESG risk scores.
@@ -56,7 +57,7 @@ The goal is to:
 
 - High-risk suppliers concentrated in specific sectors and regions.
 
-  4️⃣ Feature Engineering
+## 4️⃣ Feature Engineering
 
 - Created Avg_Risk_Prob (predicted probability of risk).
 
@@ -72,11 +73,11 @@ The goal is to:
 
   Revenue contribution & transactions count.
 
-5️⃣ Machine Learning Model
+## 5️⃣ Machine Learning Model
 
 - Target: Supplier_Risk_Flag (0 = Low/Medium Risk, 1 = High Risk).
 
-- Models Tested:  Random Forest
+- Models Tested:  Random Forest for final Deployment due ti high ROC-AOC(0.89) and balanced Precision/Recall
 
 - Performance Metrics:
 
@@ -84,6 +85,15 @@ The goal is to:
 
   ROC-AUC to measure discriminatory power.
 
-6️⃣ Visualizations (Power BI Dashboard)
-![PowerBI](
- 
+## 6️⃣ Visualizations (Power BI Dashboard)
+![PowerBI](Supply_Risk_Analysis.png)
+
+## 📊 Key Insights
+
+- Energy sector suppliers show highest ESG risk and longest lead times → operational bottleneck.
+
+- High geopolitical index regions are prone to supply chain disruptions.
+
+- Revenue is concentrated in medium-risk suppliers, highlighting the importance of managing them effectively.
+
+- Strong correlation between ESG risk and delivery delays.
