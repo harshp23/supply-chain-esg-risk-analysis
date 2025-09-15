@@ -41,7 +41,7 @@ The goal is to:
 - Energy sector had the highest lead times and highest ESG risk scores.
 
 - Manufacturing sector showed moderate risk but better delivery reliability.
-  ![ Sector wise Lead Times](Sectorwiseleadtime.png)
+  ![ Sector wise Lead Times](Sector_wise_Lead_time.png)
 
 ## Correlation Insights:
 
